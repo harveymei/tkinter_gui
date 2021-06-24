@@ -16,6 +16,10 @@ root = Tk()
 root.title("标题")
 
 style = Style()
+#
+# relief
+# Determines what the border style of a widget will be. Legal values
+# are: "raised", "sunken", "flat", "groove", and "ridge".
 style.configure("TButton", font=14, relief="flat", background="#00f5ff")
 btn = ttk.Button(text="这只是一个按钮", style="TButton")
 btn.pack(pady=20)
