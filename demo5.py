@@ -19,7 +19,7 @@ win.configure(bg="#a7ea90")
 # 赋值窗口宽高变量
 winw = 300
 winh = 220
-# 获取屏幕宽高赋值变量
+# 获取屏幕宽高赋值变量，单位：像素
 scrw = win.winfo_screenwidth()
 scrh = win.winfo_screenheight()
 # 屏幕宽高减窗口宽高除2分别赋值x与y变量
