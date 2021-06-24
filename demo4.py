@@ -26,7 +26,7 @@ win.configure(bg="yellow")
 # 设置窗口的最大尺寸（即最大化按钮或拖拉水平和垂直边框所能得到的最大窗口）
 win.maxsize(500, 500)
 # 定义字符串变量（9行）
-couple = "\n\n上联：足不出户一台电脑打天下\n\n下联：窝宅在家一双巧手定乾坤\n\n横批：真我风采"
+couple = "\n\n上联：白日依山尽\n\n下联：黄河入海流\n\n横批：华夏风采"
 # 设置Label赋值变量并包装显示
 # 此处的背景色为标签的背景色，如不设置，默认为白色。
 txt = Label(win, text=couple, bg="yellow")
